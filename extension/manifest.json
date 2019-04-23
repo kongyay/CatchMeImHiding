@@ -1,0 +1,27 @@
+{
+  "name": "Catch Me I'm Hiding",
+  "version": "1.0",
+  "description": "I'm hiding inside some image on some website, Catch me!",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/shiba16.png",
+      "32": "images/shiba32.png",
+      "48": "images/shiba48.png",
+      "128": "images/shiba128.png"
+    }
+  },
+  "icons": {
+    "16": "images/shiba16.png",
+    "32": "images/shiba32.png",
+    "48": "images/shiba48.png",
+    "128": "images/shiba128.png"
+  },
+  "manifest_version": 2
+}
